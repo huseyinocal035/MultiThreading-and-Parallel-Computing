@@ -1,3 +1,5 @@
+package Multithreading;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -11,7 +13,7 @@ public class SingleThreadExecutor implements Runnable{
 
     @Override
     public void run() {
-        System.out.println( "SingleThreadExecutor's id : " + id + "\n Thread id : " +  Thread.currentThread().getId() + "\n");
+        System.out.println( "Multithreading.SingleThreadExecutor's id : " + id + "\n Thread id : " +  Thread.currentThread().getId() + "\n");
     }
 
     public static void main(String[] args) {

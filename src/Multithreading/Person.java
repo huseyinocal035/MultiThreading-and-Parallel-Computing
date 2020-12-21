@@ -1,3 +1,5 @@
+package Multithreading;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;
 
@@ -110,7 +112,7 @@ public class Person implements Comparable<Person>{
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Multithreading.Person{" +
             "id=" + id +
             ", age=" + age +
             ", name='" + name + '\'' +

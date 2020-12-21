@@ -1,3 +1,5 @@
+package Multithreading;
+
 // This implementation is kind of time-slicing algorithm
 // Lambda expression has been used for this class as well
 public class MultithreadingWithLambda {

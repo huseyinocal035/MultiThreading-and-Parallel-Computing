@@ -1,3 +1,5 @@
+package Multithreading;
+
 public class SynchronizedBlock {
 
     public void create() {

@@ -1,3 +1,5 @@
+package Multithreading;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
@@ -67,7 +69,7 @@ public class DelayedQueueService implements Delayed {
 
     @Override
     public String toString() {
-        return "DelayedQueueService{" +
+        return "Multithreading.DelayedQueueService{" +
             "duration=" + duration +
             ", message='" + message + '\'' +
             '}';

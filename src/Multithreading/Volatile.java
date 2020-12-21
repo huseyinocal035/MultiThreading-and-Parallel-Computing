@@ -1,3 +1,5 @@
+package Multithreading;
+
 public class Volatile {
 
     private static volatile boolean terminated;

@@ -1,3 +1,5 @@
+package Multithreading;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -11,7 +13,7 @@ public class FixedThread implements Runnable {
 
     @Override
     public void run() {
-        System.out.println( "FixedThread's id : " + id + "\n Thread id : " +  Thread.currentThread().getId() + "\n");
+        System.out.println( "Multithreading.FixedThread's id : " + id + "\n Thread id : " +  Thread.currentThread().getId() + "\n");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException exception) {
